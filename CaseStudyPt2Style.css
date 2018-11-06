@@ -1,0 +1,134 @@
+body {font-family:Verdana, Arial, sans-serif;
+	  color: #684015;
+      background-color: #FFFFFF;
+}
+#wrapper { background-color: #efede8; 
+           width: 90%;
+		   margin: auto;
+           min-width:850px;
+		   box-shadow: 5px 5px 5px #2E0000;
+} 
+
+#rightcolumn { background-color: #efede8;
+			min-height: 500px;
+} 
+
+h1 { font-family: 'Aclonica';font-size: 40px;
+}
+
+.content {	padding: 50px 20px 0 50px; 
+			overflow: auto;
+} 
+
+#floatleft { margin: 10px;
+             float: left;
+			 clear: right;
+}
+div.nav {
+    background-color: #ffdab9;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.nav a {
+	float: right;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+
+div.nav a:link { 
+	color: #795240;
+}
+
+div.nav a:visited { 
+	color: #A58366;
+}
+
+div.nav a:hover { 
+	color: #F5F5DC;
+}
+div.reg {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.reg a {
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+div.reg a:link { 
+	color: #795240;
+}
+
+div.reg a:visited { 
+	color: #A58366;
+}
+
+div.reg a:hover { 
+	color: #F5F5DC;
+}
+
+footer { background-color: #ffdab9;
+		color: #684015; 
+		font-size:80%;
+         text-align: center;
+		 clear: right;
+         padding-bottom:20px;
+		 padding-top:20px;
+}	
+.clearfix {
+    overflow: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+table { margin: auto; width: 700px; border-spacing: 1;}
+td { padding: 20px; font-family: calibri, sans-serif;
+font-size: 1.2em; padding-bottom: 20px; }
+tr:nth-of-type(even) { background-color:#ffffff; 
+color: #684015;}
+tr:nth-of-type(odd)  { background-color: #ffdab9;
+color: #684015; }
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 75px;
+    text-align: right;
+}
+input {
+  width: auto;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+}
